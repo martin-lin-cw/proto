@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package test1;
+
+option go_package = "github.com/martin-lin-cw/gen/test1/v1;test1pb";
+
+service Test1Service {
+  rpc Hello1(Hello1Request) returns (Hello1Response) {}
+}
+
+message Hello1Request {}
+message Hello1Response { string result = 1; }
