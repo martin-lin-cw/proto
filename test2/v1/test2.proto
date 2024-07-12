@@ -5,7 +5,7 @@ package test2;
 option go_package = "github.com/martin-lin-cw/gen/test2/v1;test2pb";
 
 service Test2Service {
-  rpc Hello1(Hello2Request) returns (Hello2Response) {}
+  rpc Hello2(Hello2Request) returns (Hello2Response) {}
 }
 
 message Hello2Request {}
